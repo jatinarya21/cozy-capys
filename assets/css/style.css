@@ -375,7 +375,12 @@ ul {
 .shadow-faq {
     text-shadow: 2px 6px 0px #FB9100;
 }
-
+.accordion-item{
+    border-radius: 8px !important;
+}
+.accordion-item:first-of-type .accordion-button{
+    border-radius: 8px !important;
+}
 .accordion-button:not(.collapsed) {
     color: unset !important;
     background-color: unset !important;
