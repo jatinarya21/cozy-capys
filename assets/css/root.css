@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&family=Cherry+Cream+Soda&family=Chewy&display=swap');
+
+:root {
+    /* colors */
+    --color-primary: #ffff;
+    --color-black: #0D0D0D;
+    --color-orange: #FF9300;
+    --color-green: #5BA72B;
+    --color-pink: #EEC4DC;
+    --bg-blue: #4CBAFf;
+    --bg-orange: #FCBE69;
+    --bg-green: #9ACC44;
+    --bg-darkgreen: #5BA72B;
+
+    /* font-size */
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 12px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-28: 28px;
+    --fs-32: 32px;
+    --fs-44: 44px;
+    --fs-60: 30px;
+    --fs-70: 70px;
+    --fs-80: 42px;
+
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-700: 700;
+
+    /* line-height */
+    --line-height-108: 108.687%;
+    --line-height-103: 103.164%;
+    --line-height-150: 150%;
+    --line-height-126: 126.164%;
+}
+
+.ff-balsamiq {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.ff-cherrybomb {
+    font-family: 'Cherry Bomb One', cursive;
+}
+
+.ff-cherrysoda {
+    font-family: 'Cherry Cream Soda', cursive;
+}
+
+.ff-chewy {
+    font-family: 'Chewy', cursive;
+}
+
+.para-color {
+    color: var(--color-black);
+    opacity: 0.7;
+}
+.w-150{
+    width: 150%;
+}
+.color-white {
+    color: var(--color-primary);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-orange {
+    color: var(--color-orange);
+}
+
+.color-green {
+    color: var(--color-green);
+}
+
+.color-pink {
+    color: var(--color-pink);
+}
+
+.bg-blue {
+    background: var(--bg-blue);
+}
+
+.bg-green {
+    background: var(--bg-green);
+}
+
+.bg-darkgreen {
+    background: var(--bg-darkgreen);
+}
+
+.bg-orange {
+    background: var(--bg-orange);
+}
+
+.bg-black {
+    background: var(--color-black);
+}
+
+.bg-white {
+    background: var(--color-primary);
+}
+.fs-14{
+    font-size: var(--fs-14);
+}
+.fs-16 {
+    font-size: var(--fs-16);
+}
+.fs-18{
+    font-size: var(--fs-18);
+}
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-32 {
+    font-size: var(--fs-32);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-28 {
+    font-size: var(--fs-28);
+}
+
+.fs-32 {
+    font-size: var(--fs-32);
+}
+
+.fs-44 {
+    font-size: var(--fs-44);
+}
+
+.fs-60 {
+    font-size: var(--fs-60);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+.fs-80 {
+    font-size: var(--fs-80);
+}
+
+.fs-56 {
+    font-size: var(--fs-56);
+}
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+.fw-300 {
+    font-weight: var(--fw-300);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.lh-108 {
+    line-height: var(--line-height-108);
+}
+
+.lh-126 {
+    line-height: var(--line-height-126);
+}
+
+.lh-150 {
+    line-height: var(--line-height-150);
+}
+
+.lh-103 {
+    line-height: var(--line-height-103);
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-37 {
+    padding-top: 37px;
+}
+
+.px-220 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.gap-34 {
+    gap: 34px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.-ms-10 {
+    margin-left: -10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+@media (min-width:576px) {
+     :root{
+         --fs-14: 14px;
+         --fs-16: 16px;
+         --fs-18: 16px;
+         --fs-20: 20px;
+         --fs-22: 22px;
+         --fs-28: 28px;
+         --fs-32: 32px;
+         --fs-44: 44px;
+         --fs-60: 46px;
+         --fs-70: 70px;
+         --fs-80: 60px;
+     }   
+     .px-220 {
+         padding-right: 0px;
+         padding-left: 0px;
+     }
+}
+@media (min-width:768px) {
+     :root{
+         --fs-14: 14px;
+         --fs-16: 16px;
+         --fs-18: 16px;
+         --fs-20: 20px;
+         --fs-22: 22px;
+         --fs-28: 28px;
+         --fs-32: 32px;
+         --fs-44: 44px;
+         --fs-60: 60px;
+         --fs-70: 70px;
+         --fs-80: 80px;
+     }   
+     .px-220 {
+         padding-right: 0px;
+         padding-left: 0px;
+     }
+}
