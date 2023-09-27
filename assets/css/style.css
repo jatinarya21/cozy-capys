@@ -96,10 +96,59 @@ ul {
 .hover-line:hover::before {
     width: 100%;
 }
+.hover-line2 {
+    position: relative;
+}
+.hover-line2::before {
+    content: '';
+    position: absolute;
+    bottom: -35%;
+    right: 0;
+    background:#fff;
+    border-radius: 10px;
+    width: 0%;
+    height: 2px;
+    transition: all 500ms;
+}
+
+.hover-line2:hover::before {
+    width: 100%;
+}
 .left_0 {
     left: 0%;
 }
+.hover-btn{
+    transition: all 100ms;
+}
+.hover-btn:hover{
+    background: none;
+    border: 2px solid #4CBAFf;
+    color: #4CBAFf;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: #4CBAFf;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    z-index: 5;
+}
 
+#myBtn:hover {
+    background-color: #93D8FD;
+}
+#loader-arrow {
+    height: 25px;
+    width: 25px;
+    transform: rotate(-90deg);
+}
 .overflow_hidden {
     overflow: hidden;
 }
@@ -235,6 +284,9 @@ ul {
     bottom: -18%;
     right: 0;
     padding-right: 30px;
+    width: 100%;
+    max-width: 160px;
+    min-width: 20%;
 }
 
 .section-3cloud {

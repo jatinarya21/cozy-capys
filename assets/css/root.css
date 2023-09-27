@@ -261,3 +261,9 @@
          padding-left: 0px;
      }
 }
+@media (min-width:992px) {
+    .px-220{
+        padding-right: 220px;
+        padding-left: 220px;
+    }
+}
