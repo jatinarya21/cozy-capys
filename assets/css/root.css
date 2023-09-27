@@ -16,8 +16,8 @@
     --fs-14: 14px;
     --fs-16: 16px;
     --fs-18: 12px;
-    --fs-20: 20px;
-    --fs-22: 22px;
+    --fs-20: 14px;
+    --fs-22: 10px;
     --fs-28: 28px;
     --fs-32: 32px;
     --fs-44: 44px;
@@ -59,7 +59,7 @@
     opacity: 0.7;
 }
 .w-150{
-    width: 150%;
+    width: 176%;
 }
 .color-white {
     color: var(--color-primary);
@@ -192,7 +192,12 @@
 .pt-10 {
     padding-top: 10px;
 }
-
+.pt-4rem{
+    padding-top: 1rem;
+}
+.pb-15rem{
+    padding-bottom: 14rem;
+}
 .pt-30 {
     padding-top: 30px;
 }
@@ -246,9 +251,9 @@
      :root{
          --fs-14: 14px;
          --fs-16: 16px;
-         --fs-18: 16px;
+         --fs-18: 18px;
          --fs-20: 20px;
-         --fs-22: 22px;
+         --fs-22: 18px;
          --fs-28: 28px;
          --fs-32: 32px;
          --fs-44: 44px;
@@ -266,4 +271,18 @@
         padding-right: 220px;
         padding-left: 220px;
     }
+    .w-150{
+        width: 136%;
+    }
+}
+@media (min-width:1200px) {
+        .pb-15rem{
+            padding-bottom: 21rem;
+        }
+        .pt-4rem{
+            padding-top: 4rem;
+        }
+        .w-150{
+            width: 127%;
+        }
 }

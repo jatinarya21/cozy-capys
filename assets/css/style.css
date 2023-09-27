@@ -6,6 +6,7 @@
     list-style-type: none !important;
     /* border: 1px solid black; */
 }
+
 #Preloader {
     z-index: 9;
 }
@@ -35,7 +36,8 @@ ul {
 
 .rainbow {
     position: absolute;
-    top: 5%;
+    top: 0%;
+    left: 0%;
 }
 
 .bg-cloud {
@@ -51,8 +53,8 @@ ul {
     bottom: 0%;
     z-index: 2;
     width: 100%;
-    max-width: 270px;
-    min-width: 25%;
+    max-width: 250px;
+    min-width: 0%;
 }
 
 .hero-right-tree {
@@ -61,7 +63,7 @@ ul {
     bottom: 0%;
     z-index: 2;
     width: 100%;
-    max-width: 270px;
+    max-width: 250px;
     min-width: 25%;
 }
 
@@ -78,15 +80,17 @@ ul {
     z-index: 5;
     transition: all .8s cubic-bezier(0.68, 1.55, 0.265, .55);
 }
+
 .hover-line {
     position: relative;
 }
+
 .hover-line::before {
     content: '';
     position: absolute;
     bottom: -35%;
     right: 0;
-    background:#FB9100;
+    background: #FB9100;
     border-radius: 10px;
     width: 0%;
     height: 2px;
@@ -96,15 +100,17 @@ ul {
 .hover-line:hover::before {
     width: 100%;
 }
+
 .hover-line2 {
     position: relative;
 }
+
 .hover-line2::before {
     content: '';
     position: absolute;
     bottom: -35%;
     right: 0;
-    background:#fff;
+    background: #fff;
     border-radius: 10px;
     width: 0%;
     height: 2px;
@@ -114,17 +120,21 @@ ul {
 .hover-line2:hover::before {
     width: 100%;
 }
+
 .left_0 {
     left: 0%;
 }
-.hover-btn{
+
+.hover-btn {
     transition: all 100ms;
 }
-.hover-btn:hover{
+
+.hover-btn:hover {
     background: none;
     border: 2px solid #4CBAFf;
     color: #4CBAFf;
 }
+
 #myBtn {
     display: none;
     position: fixed;
@@ -144,11 +154,13 @@ ul {
 #myBtn:hover {
     background-color: #93D8FD;
 }
+
 #loader-arrow {
     height: 25px;
     width: 25px;
     transform: rotate(-90deg);
 }
+
 .overflow_hidden {
     overflow: hidden;
 }
@@ -212,10 +224,11 @@ ul {
 
 .hero-nft {
     position: absolute;
-    bottom: 1%;
+    bottom: 5%;
     width: 100%;
-    min-width: 90%;
-    max-width: 310px;
+    min-width: 80%;
+    max-width: 253px;
+    left: 7%;
 }
 
 .section-2head {
@@ -224,7 +237,7 @@ ul {
 
 .grass {
     position: absolute;
-    bottom: -10%;
+    bottom: -2%;
     left: 0%;
     width: 100%;
 }
@@ -238,9 +251,11 @@ ul {
 
 
 .cloud {
-    width: 80%;
+    width: 100%;
     background: white;
-    height: 430px;
+    height: 540px;
+    border-radius: 10px;
+    height: 360px;
 }
 
 .text-about {
@@ -273,19 +288,19 @@ ul {
 
 .about-ustree {
     position: absolute;
-    bottom: -20%;
+    bottom: -14%;
     width: 100%;
-    min-width: 0%;
-    max-width: 160px;
+    min-width: 160px;
+    max-width: 70px;
 }
 
 .pink-nft {
     position: absolute;
-    bottom: -18%;
+    bottom: -9%;
     right: 0;
-    padding-right: 30px;
+    padding-right: 7px;
     width: 100%;
-    max-width: 160px;
+    max-width: 130px;
     min-width: 20%;
 }
 
@@ -308,25 +323,34 @@ ul {
         lightgray 50% / cover no-repeat,
         #FFF;
     box-shadow: 15.34152px 15.34152px 4.38329px 0px rgba(0, 0, 0, 0.25);
+    width: 270px;
 }
 
 .rainbow-gif {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0%;
+    width: 30%;
 }
 
 .shadow-impact {
     text-shadow: 1px 4px 0px #3D53A0;
 }
 
+.gif-img {
+    width: 245px;
+    height: 298px;
+    border-radius: 6px;
+}
+
 .impact-tree {
-    position: absolute;
-    bottom: -25%;
-    right: 0;
-    z-index: 1;
-    width: 100%;
-    max-width: 150px;
+        position: absolute;
+        bottom: -17%;
+        right: 0;
+        z-index: 1;
+        width: 90%;
+        max-width: 90px;
+            min-width: 137px;
 }
 
 .bg-roadmap {
@@ -365,22 +389,44 @@ ul {
 }
 
 .footer-tree {
+        position: absolute;
+        top: -7%;
+        left: 0px;
+        width: 100%;
+        max-width: 120px;
+        min-width: 190px;
+}
+
+.footer-nft1 {
     position: absolute;
-    top: -33%;
+    bottom: 0;
     left: 0;
     width: 100%;
-    max-width: 150px;
+    min-width: 230px;
+    max-width: 140px;
+}
+
+.footer-nft2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    min-width: 230px;
+    max-width: 140px;
 }
 
 .shadow-faq {
     text-shadow: 2px 6px 0px #FB9100;
 }
-.accordion-item{
+
+.accordion-item {
     border-radius: 8px !important;
 }
-.accordion-item:first-of-type .accordion-button{
+
+.accordion-item:first-of-type .accordion-button {
     border-radius: 8px !important;
 }
+
 .accordion-button:not(.collapsed) {
     color: unset !important;
     background-color: unset !important;
@@ -405,7 +451,7 @@ ul {
 }
 
 .accordion-button {
-    font-size: 18px !important;
+    font-size: var(--fs-22) !important;
 }
 
 .accordion-body {
@@ -436,7 +482,20 @@ ul {
 
 
 
-@media (min-width:576px) {}
+@media (min-width:768px) {
+    .gif{
+        width:340px;
+        height: 370px;
+    }
+    .gif-img{
+        width: 315px;
+        height: 345px;
+        
+    }
+    .grass{
+        bottom: -6%;
+    }
+}
 
 @media (min-width:992px) {
     .nav-bar {
@@ -450,7 +509,56 @@ ul {
     .cloud {
         background: url(/assets/images/cloudcontent.png);
         background-position: center;
-        height: 100vh;
         background-repeat: no-repeat;
     }
+    .grass{
+        bottom: -7%;
+    }
+    .cloud{
+        height: 490px;
+    }
+    .pink-nft{
+        bottom: -17%;
+    }
+    .about-ustree{
+        bottom: -21%;
+    }
+}
+@media (min-width:1200px) {
+        .grass{
+            bottom: -10%;
+        }
+        .clippath{
+            bottom: 10%;
+        }
+        .hero-nft{
+            bottom: 10%;
+        }
+        .about-ustree{
+            bottom: -27%;
+        }
+        .pink-nft{
+            bottom: -21%;
+        }
+        .gif{
+            width: 446px;
+            height: 498px;
+        }
+        .gif-img{
+            width: 420px;
+            height: 475px;
+        }
+        .footer-tree{
+            top: -14%;
+        }
+
+}
+@media (min-width:1400px) {
+        .about-ustree{
+            min-width: 269px;
+            bottom: -33%;
+        }
+        .pink-nft{
+            bottom: -27%;
+        }
 }
