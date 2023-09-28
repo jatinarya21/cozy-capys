@@ -237,7 +237,7 @@ ul {
 
 .grass {
     position: absolute;
-    bottom: -2%;
+    bottom: -3%;
     left: 0%;
     width: 100%;
 }
@@ -419,20 +419,25 @@ ul {
 
 .footer-nft1 {
     position: absolute;
-    bottom: 0;
+    bottom: 6.5%;
     left: 0;
-    width: 100%;
-    min-width: 230px;
+    width: 0;
+    min-width: 110px;
     max-width: 140px;
 }
 
 .footer-nft2 {
     position: absolute;
-    bottom: 0;
+    bottom: 6.5%;
     right: 0;
-    width: 100%;
-    min-width: 230px;
+    width: 0%;
+    min-width: 110px;
     max-width: 140px;
+}
+.line{
+    width: 100%;
+    background:rgba(0, 0, 0, 0.30);
+    height: 1px;
 }
 
 .shadow-faq {
@@ -543,6 +548,23 @@ ul {
     .about-ustree{
         bottom: -21%;
     }
+    .footer-nft1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        min-width: 250px;
+        max-width: 140px;
+    }
+
+    .footer-nft2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        min-width: 250px;
+        max-width: 140px;
+    }
 }
 @media (min-width:1200px) {
         .grass{
@@ -572,6 +594,7 @@ ul {
             top: -14%;
         }
 
+
 }
 @media (min-width:1400px) {
         .about-ustree{
@@ -580,5 +603,18 @@ ul {
         }
         .pink-nft{
             bottom: -27%;
+        }
+        .footer-nft1 {
+           
+            width: 100%;
+            min-width: 250px;
+            max-width: 360px;
+        }
+
+        .footer-nft2 {
+           
+            width: 100%;
+            min-width: 250px;
+            max-width: 360px;
         }
 }
