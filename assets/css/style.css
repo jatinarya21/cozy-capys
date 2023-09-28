@@ -617,4 +617,12 @@ ul {
             min-width: 250px;
             max-width: 360px;
         }
+       .grass{
+            bottom: -12%;
+       }
+}
+@media (min-width:1600px) {
+     .grass {
+         bottom: -17%;
+     }
 }
